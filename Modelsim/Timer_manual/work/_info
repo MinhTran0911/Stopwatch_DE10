@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/Quartus/Mock_2/Modelsim_Projects/Mock_2_Top_Level
+vTimer
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1652360493
+!i10b 1
+!s100 E:TD_c>Go<8_?zHlh2QS61
+I[f`7D692U>Yf=AaF5Y8z:2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 Timer_sv_unit
+S1
+Z3 dC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Timer
+w1652359713
+8C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Timer/Timer.sv
+FC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Timer/Timer.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1652360493.000000
+!s107 C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Timer/Timer.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Timer/Timer.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+n@timer
+vTimer_tb
+R0
+R1
+!i10b 1
+!s100 HUb_b479LCSQ[<CP4VG?V3
+I6HFNiKZP6S_e>`M8PQGT52
+R2
+!s105 Timer_tb_sv_unit
+S1
+R3
+w1652360486
+8C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Timer/Timer_tb.sv
+FC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Timer/Timer_tb.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Timer/Timer_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Timer/Timer_tb.sv|
+!i113 1
+R6
+R7
+n@timer_tb

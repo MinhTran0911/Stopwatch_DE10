@@ -1,0 +1,1 @@
+module Sev_Seg_Display (tens_sec, ones_sec, tenth_sec, HEX);

@@ -1,0 +1,137 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "HEX[3][0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[3][1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[3][2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[3][3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[3][4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[3][5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[3][6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[2][0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[2][1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[2][2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[2][3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[2][4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[2][5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[2][6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[0][0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[0][1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[0][2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[0][3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[0][4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[0][5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX[0][6]",
+					"strict" : false
+				},
+				{
+					"name" : "tens_sec[2]",
+					"strict" : false
+				},
+				{
+					"name" : "tens_sec[0]",
+					"strict" : false
+				},
+				{
+					"name" : "tens_sec[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ones_sec[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ones_sec[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ones_sec[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ones_sec[3]",
+					"strict" : false
+				},
+				{
+					"name" : "tenth_sec[0]",
+					"strict" : false
+				},
+				{
+					"name" : "tenth_sec[1]",
+					"strict" : false
+				},
+				{
+					"name" : "tenth_sec[2]",
+					"strict" : false
+				},
+				{
+					"name" : "tenth_sec[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

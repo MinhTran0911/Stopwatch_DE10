@@ -1,0 +1,15 @@
+{C:/Users/trank/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Lap_Register/Lap_Register_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/trank/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Lap_Register/Lap_Register_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Lap_Register_tb
+
+Top level modules:
+	Lap_Register_tb
+
+} {} {}} {C:/Users/trank/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Lap_Register/Lap_Register.sv} {1 {vlog -work work -sv -stats=none {C:/Users/trank/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Lap_Register/Lap_Register.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Lap_Register
+
+Top level modules:
+	Lap_Register
+
+} {} {}}

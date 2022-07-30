@@ -1,0 +1,185 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Sev_Seg_Display_auto
+vController
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1652612855
+!i10b 1
+!s100 NflUzG6zoR2K^FoNW:ZkF0
+ICIMWMPzJmn^J]omCZ`@Ej3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 Controller_sv_unit
+S1
+Z3 dC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto
+w1652425946
+8C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Controller.sv
+FC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Controller.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1652612855.000000
+!s107 C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Controller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Controller.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+n@controller
+vLap_Register
+R0
+R1
+!i10b 1
+!s100 3LOKh[Zl_<<^3WH=XzfB>3
+I@;>=PKj_:C=XnI5_3FFO`3
+R2
+!s105 Lap_Register_sv_unit
+S1
+R3
+w1652457535
+8C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Lap_Register.sv
+FC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Lap_Register.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Lap_Register.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Lap_Register.sv|
+!i113 1
+R6
+R7
+n@lap_@register
+vSec_Decoder
+R0
+R1
+!i10b 1
+!s100 <FA6RJD0eo8Fe9P4zo0oP0
+I:AEbR3KiMPb1k0dIPCJ`G3
+R2
+!s105 Sec_Decoder_sv_unit
+S1
+R3
+w1652007023
+8C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Sec_Decoder.sv
+FC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Sec_Decoder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Sec_Decoder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Sec_Decoder.sv|
+!i113 1
+R6
+R7
+n@sec_@decoder
+vSev_Seg_Display
+R0
+R1
+!i10b 1
+!s100 L;bgCU:BCBm_mJ^[f]]AO2
+Ilh?@<iJ7JV?cT2D57eV;e3
+R2
+!s105 Sev_Seg_Display_sv_unit
+S1
+R3
+w1652026951
+8C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Sev_Seg_Display.sv
+FC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Sev_Seg_Display.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Sev_Seg_Display.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Sev_Seg_Display.sv|
+!i113 1
+R6
+R7
+n@sev_@seg_@display
+vStopwatch
+R0
+R1
+!i10b 1
+!s100 G<jbiQ_7VP2WYNM>93ZXg1
+I>F4^gfHliPJ9NIKb@1?KG3
+R2
+!s105 Stopwatch_sv_unit
+S1
+R3
+w1652514315
+8C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Stopwatch.sv
+FC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Stopwatch.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Stopwatch.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Stopwatch.sv|
+!i113 1
+R6
+R7
+n@stopwatch
+vStopwatch_tb
+R0
+R1
+!i10b 1
+!s100 FG6TFE<Z]A6c]hZ3^iT:b0
+IR23=GS35YUo9m:]Q@lS9=3
+R2
+!s105 Stopwatch_tb_sv_unit
+S1
+R3
+w1652612842
+8C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Stopwatch_tb.sv
+FC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Stopwatch_tb.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Stopwatch_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Stopwatch_tb.sv|
+!i113 1
+R6
+R7
+n@stopwatch_tb
+vTimer
+R0
+R1
+!i10b 1
+!s100 3:fk]oEW9<7kX6TIAZER63
+IJnYcPYj?W`d:P81@3jAzE2
+R2
+!s105 Timer_sv_unit
+S1
+R3
+w1652513660
+8C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Timer.sv
+FC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Timer.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Timer.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Timer.sv|
+!i113 1
+R6
+R7
+n@timer

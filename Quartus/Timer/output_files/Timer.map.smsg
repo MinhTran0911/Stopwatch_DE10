@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at Timer.sv(13): always construct contains both blocking and non-blocking assignments File: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Quartus_Projects/Stopwatch/Timer/Timer.sv Line: 13

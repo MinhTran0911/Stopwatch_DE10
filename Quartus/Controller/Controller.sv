@@ -1,0 +1,96 @@
+module Controller (clk, rstn, timer_rst, timer_en, st_n, lap_rstn, lap_en, state);
+
+	input logic clk, rstn, st_n, lap_rstn;
+	
+	output logic timer_rst, timer_en, lap_en;
+	output logic [1:0] state;
+	
+	logic [1:0] next_state;
+	logic prev_st_n, prev_lap_rstn;
+	
+	typedef enum {INIT, RUN, STOP, LAP} States;
+	
+	// Get the previous state of the start-stop button to detect the falling edge
+	always_ff @(posedge clk) begin
+		if (!rstn) prev_st_n <= 0;
+		else begin 
+			if (st_n) prev_st_n <= 1'b1;
+			else if (prev_st_n) prev_st_n <= 1'b0;
+		end
+	end
+	// Get the previous state of the lap-reset button to detect the falling edge
+	always_ff @(posedge clk) begin
+		if (!rstn) prev_lap_rstn <= 0;
+		else begin 
+			if (lap_rstn) prev_lap_rstn <= 1'b1;
+			else if (prev_lap_rstn) prev_lap_rstn <= 1'b0;
+		end
+	end
+			
+	always_ff @(posedge clk) begin
+		if (!rstn) state <= INIT;
+		else state <= next_state;
+	end
+	
+	// Comb block to determine next state
+	always_comb begin
+		case (state)
+			INIT:
+				begin
+					if (!st_n && prev_st_n) next_state = RUN;
+					else next_state = INIT;
+				end
+			RUN:
+				begin
+					if (!st_n && prev_st_n) next_state = STOP;
+					else if (!lap_rstn && prev_lap_rstn) next_state = LAP;
+					else next_state = RUN;
+				end
+			STOP:
+				begin
+					if (!st_n && prev_st_n) next_state = RUN;
+					else if (!lap_rstn && prev_lap_rstn) next_state = INIT;
+					else next_state = STOP;
+				end
+			LAP: next_state = RUN;
+			default: next_state = INIT;
+		endcase
+	end
+	
+	// Comb block to determine output
+	always_comb begin
+		case (state)
+			INIT:
+				begin
+					timer_en = 1'b0;
+					timer_rst = 1'b1;
+					lap_en = 1'b0;
+				end
+			RUN:
+				begin
+					timer_en = 1'b1;
+					timer_rst = 1'b0;
+					lap_en = 1'b0;
+				end
+			STOP:
+				begin
+					timer_en = 1'b0;
+					timer_rst = 1'b0;
+					lap_en = 1'b0;
+				end
+			LAP: 
+				begin
+					timer_en = 1'b1;
+					timer_rst = 1'b0;
+					lap_en = 1'b1;
+				end
+			default:
+				begin
+					timer_en = 1'b0;
+					timer_rst = 1'b1;
+					lap_en = 1'b0;
+				end
+		endcase
+	end
+	
+endmodule 

@@ -1,0 +1,1 @@
+module Lap_Register (clk, rst, en, tenth_sec_in, sec_in, tenth_sec_out, sec_out);

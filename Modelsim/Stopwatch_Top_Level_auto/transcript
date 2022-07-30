@@ -1,0 +1,38 @@
+# Reading C:/intelFPGA_lite/18.0/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Stopwatch_TB.mpf}
+# Loading project Stopwatch_TB
+vsim -gui work.Stopwatch_tb
+# vsim -gui work.Stopwatch_tb 
+# Start time: 14:32:44 on May 16,2022
+# Loading sv_std.std
+# Loading work.Stopwatch_tb
+# Loading work.Stopwatch
+# Loading work.Controller
+# Loading work.Timer
+# Loading work.Lap_Register
+# Loading work.Sec_Decoder
+# Loading work.Sev_Seg_Display
+# ** Warning: (vsim-3017) C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Stopwatch.sv(15): [TFMPC] - Too few port connections. Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /Stopwatch_tb/DUT/Stopwatch_Controller File: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Controller.sv
+# ** Warning: (vsim-3722) C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Stopwatch.sv(15): [TFMPC] - Missing connection for port 'state'.
+add wave -position insertpoint  \
+sim:/Stopwatch_tb/in_clk \
+sim:/Stopwatch_tb/in_rstn \
+sim:/Stopwatch_tb/in_st_n \
+sim:/Stopwatch_tb/in_lap_rstn \
+sim:/Stopwatch_tb/out_tenth_sec \
+sim:/Stopwatch_tb/out_lap_tenth_sec \
+sim:/Stopwatch_tb/out_ones \
+sim:/Stopwatch_tb/out_lap_ones \
+sim:/Stopwatch_tb/out_tens \
+sim:/Stopwatch_tb/out_lap_tens
+run -all
+# At 0 ns << Starting the Simulation >>
+# At 4.1e+09 ns
+# << Simulation finishes with 0 output mismatch(es) >>
+# ** Note: $finish    : C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Stopwatch_tb.sv(195)
+#    Time: 4100 ms  Iteration: 0  Instance: /Stopwatch_tb
+# 1
+# Break in Module Stopwatch_tb at C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Assignment/Modelsim_Projects/Stopwatch/Stopwatch_Top_Level_auto/Stopwatch_tb.sv line 195
+# End time: 18:21:16 on May 16,2022, Elapsed time: 3:48:32
+# Errors: 0, Warnings: 2
